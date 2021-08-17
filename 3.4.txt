@@ -1,0 +1,12 @@
+Basic Debugging Tactics
+
+Debugging Tactic #1: Commenting out your code
+Debugging Tactic #2: Validating your code flow
+	Tips: when printing info for debugging purposes, use std::cer instead of std::cout; std::cout may be buffered (pause between the prompt vs real-time)
+		  when adding temporary debug statements, it can be helpful to not indent so that they're easier to find for removal later on
+Debugging Tactic #3: Printing Values
+Why Using Printing Statements to Debug Isn't Great
+	1. Debug statements clutter your code
+	2. Debug statements clutter the output of your program
+	3. Debug statements must be removed after you're done with them, which makes them non-reuseable
+	4. Debug statements require modification of your code to both add and to remove, which can introduce new bugs

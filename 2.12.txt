@@ -1,0 +1,25 @@
+How to Design your First Programs
+
+Design
+	1) Define your goal
+	2) Define requirements
+		Solution must abide by certain constraints, as well as the capabilities that the program must exhibit in order to meet the users' needs; focus on the "what", not the "how"
+	3) Define your tools, targets, and backup plan
+	4) Break hard problems down into easy problems
+		Top town method > bottom down method (for me)
+	5) Figure out the Sequence of Events
+
+Implementation
+	1) Outlining your Main Function
+	2) Implement Each Function
+		1. Define the function prototype (inputs and outputs)
+		2. Write the function
+		3. Test the function
+	3) Final Testing
+
+Words of Advice when Writing Programs
+	Keep your programs simple to start
+	Add features over time
+	Focus on one area at a time
+	Test each piece of code as you go
+	Don't invest in perfecting early code

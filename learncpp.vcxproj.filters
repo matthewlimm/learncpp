@@ -131,6 +131,9 @@
     <Text Include="3.5.txt">
       <Filter>Source Files\section 3</Filter>
     </Text>
+    <Text Include="3.6.txt">
+      <Filter>Source Files\section 3</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="io.h">

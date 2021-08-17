@@ -176,6 +176,7 @@
     <Text Include="3.3.txt" />
     <Text Include="3.4.txt" />
     <Text Include="3.5.txt" />
+    <Text Include="3.6.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="io.h" />

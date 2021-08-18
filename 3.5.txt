@@ -2,6 +2,7 @@ More Debugging Tactics
 
 Conditionalizing your Debugging Code
 	Use preprocessor directives with std::cerr prints to make debugging statements conditional
+
 Using a Logger
 	Log files record events that occur in software and writing that information is called logging
 	This avoids a lot of clutter and is quite versailte when it comes to sharing the program's information for diagnosis

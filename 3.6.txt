@@ -3,21 +3,29 @@ Using an Integrated Debugger: Stepping
 The Debugger
 	The debugger is twofold: the ability to control, view, and modify (if desired) the program's state
 	Most modern IDEs available these days have an integrated debugger
+
 Stepping
 	Stepping is an alias for debugging features which allows step by step execution
+
 Step Into
 	The step into command executes the next statements and pauses so that the program's current state can be examined
 	If the next statement is a function call, it would jump right before the function is being called, where it will pause
 	Visual Studio: Debug menu > Step Into; F11 shortcut key
 	The yellow arrow that appears to the left of the opening brace of the main() function indicates that the line being pointed to will be executed next
+
 Step Over
 	The step over command executes the entire function (as opposed to to line by line) without stopping and return control after execution
+	Won't skip over if the current line is already in a function as that is the step out command; must be a function call to skip
 	Visual Studio: Debug menu > Step Over; F10 shortcut key
+
 Step Out
 	The step out command executes all remaining code in the function and return control after execution
+	If main() has multiple functions, it will just execute all of the functions until main() (the curent function) returns
 	Visual Studio: Debug menu > Step Out; Shift-F11 shortcut key
+
 A Step Too Far
 	Overstepping may occur; stop and restart the debugging sequence if it does so that you can go over your target again
+
 Step Back
 	The step back ability allows you to return the program to a prior step for re-examination
 	Since this requires a lot of sophistication, it is not standardized yet, and varies by debugger

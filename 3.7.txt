@@ -1,0 +1,28 @@
+Using an Integrated Debugger: Running and Breakpoints
+
+Run to Cursor
+	The Run to curson command executes the program until the point of the cursion slection and return control after execution
+	Visual Studio: right click a statement > Run to Cursor; Ctrl-F10 keyboard shortcut
+
+Continue
+	The continue command runs the program as normal, until the program terminates or until something triggers control (such as a breakpoint)
+	Visual Studio: Debug menu > Continue; F5 shortcut key
+
+Start
+	The start command runs the program as normal, except it starts from the beginning of the program; only invoked when not already in a debug session
+	This may seem redundant at first, but it will be put to better use with the next command feature
+	Visual Studio: Debug menu > Start Debugging; F5 shortcut key
+
+Breakpoints
+	The breakpoint is a special marker that stops execution of the debugger at a specific point
+	The advantage to using breakpoints over run to cursor is that it will cause the debugger to return control every time they are encountered (i.e. function is called more than once) whereas run to control is once each time it is invoked
+	Another advantage is that it is persistent until removal whereas run to cursor requires targetting each time the command is invoked
+	Visual Studio: Debug menu or right click a statement > Toggle Breakpoint; F9 shortcut key
+
+Set Next Statement
+	The set next statement command allows the execution to change the point of execution to some other statement
+		This will not change the program state; variables will retain whatever values they had before the jump so this may cause the program to produce different values, results, or behaviors than it would otherwise; use judiciously (especially backwards)
+		Setting the point of execution to a different function will result in undefined behavior, and likely crash
+	This can be used to jump the point of execution foreards and skip code that would otherwise execute, or backwards and have something that already executed run again
+	Jumping foward is the easiest way to jump over a function call(s), and jumping backwards is a great way to carefully examine a function's execution again
+	Visual Studio: right click a statement > Set next statement; Ctrl-Shift-F10 keyboard shortcut

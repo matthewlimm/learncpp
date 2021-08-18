@@ -164,7 +164,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="2.1.cpp" />
     <ClCompile Include="2.3.cpp" />
-    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="1.x.txt" />
@@ -172,15 +171,20 @@
     <Text Include="2.12.txt" />
     <Text Include="2.x.txt" />
     <Text Include="3.1.txt" />
+    <Text Include="3.10.txt" />
     <Text Include="3.2.txt" />
     <Text Include="3.3.txt" />
     <Text Include="3.4.txt" />
     <Text Include="3.5.txt" />
     <Text Include="3.6.txt" />
+    <Text Include="3.7.txt" />
+    <Text Include="3.8.txt" />
+    <Text Include="3.9.txt" />
+    <Text Include="3.x.txt" />
+    <Text Include="4.1.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="io.h" />
-    <ClInclude Include="test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

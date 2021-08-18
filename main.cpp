@@ -1,10 +1,27 @@
 #include <iostream>
-#include "test.h"
 
+void d()
+{ // here
+}
+
+void c()
+{
+}
+
+void b()
+{
+	c();
+	d();
+}
+
+void a()
+{
+	b();
+}
 
 int main()
 {
-	std::cout << "The sum of 3 and 4 is: " << add(3, 4) << '\n';
-	std::cerr << "test";
+	a();
+
 	return 0;
 }

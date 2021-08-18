@@ -1,3 +1,4 @@
+#if 0
 #include "io.h"
 #include <iostream>
 
@@ -13,3 +14,4 @@ void writeAnswer(int sum)
 {
 	std::cout << "The sum of the two number is... " << sum << '\n';
 }
+#endif

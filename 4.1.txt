@@ -1,0 +1,4 @@
+Introduction to Fundamental Data Types
+
+Bits, Bytes, and memory addressing
+	

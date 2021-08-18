@@ -22,6 +22,9 @@
     <Filter Include="Source Files\section 3">
       <UniqueIdentifier>{b782390d-d2c2-42e6-add5-351812813ee6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\section 4">
+      <UniqueIdentifier>{9d7ba885-f0b2-449c-82d1-2c7a97f38d63}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.7.cpp">
@@ -99,9 +102,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="1.x.txt">
@@ -134,13 +134,28 @@
     <Text Include="3.6.txt">
       <Filter>Source Files\section 3</Filter>
     </Text>
+    <Text Include="3.7.txt">
+      <Filter>Source Files\section 3</Filter>
+    </Text>
+    <Text Include="3.8.txt">
+      <Filter>Source Files\section 3</Filter>
+    </Text>
+    <Text Include="3.9.txt">
+      <Filter>Source Files\section 3</Filter>
+    </Text>
+    <Text Include="3.10.txt">
+      <Filter>Source Files\section 3</Filter>
+    </Text>
+    <Text Include="3.x.txt">
+      <Filter>Source Files\section 3</Filter>
+    </Text>
+    <Text Include="4.1.txt">
+      <Filter>Source Files\section 4</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="io.h">
       <Filter>Source Files\section 2</Filter>
-    </ClInclude>
-    <ClInclude Include="test.h">
-      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

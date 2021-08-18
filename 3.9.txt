@@ -1,0 +1,6 @@
+Using an Integrated Debugger: The Call Stack
+
+The Call Stack
+	The call stack is a list of all the active functions that have been called to get to the current point of execution
+	The call stack window is a debugger window that shows the current call stack
+	Visual Studio: Debug menu > Windows > Call Stack

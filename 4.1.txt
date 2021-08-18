@@ -1,4 +1,25 @@
 Introduction to Fundamental Data Types
 
-Bits, Bytes, and memory addressing
-	
+Bits, Bytes, and Memory Addressing
+	A binary digit (aka bit) is the smallest unit of memory, which can hold a value of 0 or 1
+	Memory addresses (aka addresses) are organized memory units in a sequence
+	A byte is a group of bits that are operated on as a unit
+		Each memory address holds 1 byte of data
+	C++ typically works with "byte-sized" chunks of data
+
+	Data Types
+		Data type (aka type) is used to tell the compiler how to interpret contents of memory in a meaningful way
+		When given a value, the compiler and CPU encodes the value into the appropriate sequence of bits for that specific data type
+			i.e. assigning an integer object the value 65 -> bits 0100 0001 and stored in the memory assigned to the objects
+			i.e. when the object is evaluated to produce a value, that sequence of bits is reconstituted back into the original value; bits 0100 0001 -> the value 65
+
+Fundamental Data Types
+	Fundamental data types are the different data types with build-in support that comes with C++ (aka basic types, primitive types, built-in types)
+	Integer and integral are similar, but have different meanings
+		Integer is a specific data type that hold non-fractional numbers
+		Integral means "like an integer: and is used as part of the term integral type, which includes all of the Boolean, characters, and integer numbers (also enumerated types); this is named so because they are stored in memory as integers, even though their behaviors might vary
+	In C++, strings aren't a fundamental type (they're a compound type); std::string will be introduced later
+
+The _t suffix
+	The _t suffix means "type" and is a common nomenclature applied to modern types
+	_t suffix is probably a type, but many types don't have a _t suffix, so this isn't consistently applied

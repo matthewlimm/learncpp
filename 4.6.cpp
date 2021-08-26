@@ -1,11 +1,12 @@
 #if 0
 
-// 4.6 — Fixed-width integers and size_t
+// 4.6 — FIXED-WIDTH INTEGERS AND SIZE_T
 
 // Why isn't the size of the integer variables fixed?
 // Back when computers were slow and performance was of the utmost concern, C opted to intentionally leave the integer sizes open so that the compiler implementors could pick a size for int that performs best on the target computer architecture
 
-// Fixed-width integers
+// FIXED-WIDTH INTEGERS
+
 // Fixed-width integers are guaranteed to have the same size on any architecture
 /*
  * Name				Type			Range			Notes
@@ -19,5 +20,18 @@
  * std::uint64_t	8 byte unsigned	0 to 18,446,744,073,709,551,615
  */
 
+// These fixed-width integers can be accessed by including the cstdint header
+
+#include <cstdint>
+#include <iostream>
+
+int main()
+{
+	std::int16_t i{5};
+	std::cout << i;
+	return 0;
+}
+
+// Fixed-width integers have two downsides: 1. they are optional and only exist if there are fundamental types matching their widths and following a certain binary representation
 
 #endif

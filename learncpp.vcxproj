@@ -160,6 +160,9 @@
     <ClCompile Include="2.8.cpp" />
     <ClCompile Include="2.9.cpp" />
     <ClCompile Include="2.x.cpp" />
+    <ClCompile Include="4.2.cpp" />
+    <ClCompile Include="4.4.cpp" />
+    <ClCompile Include="4.5.cpp" />
     <ClCompile Include="io.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="2.1.cpp" />
@@ -182,6 +185,7 @@
     <Text Include="3.9.txt" />
     <Text Include="3.x.txt" />
     <Text Include="4.1.txt" />
+    <Text Include="4.3.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="io.h" />

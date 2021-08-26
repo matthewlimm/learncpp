@@ -1,0 +1,63 @@
+Object Sizes and The sizeof Operator
+
+Object Sizes
+	Most objects may take up more than 1 byte of memory
+	The compiler is able to hide the details of how many bytes a given object uses because it is typically accessed through the memory by variable names
+	An object with n bits (where n is an integer) can hold 2^n unique values
+		Therefore, with an 8-int bytem a byte-sized object can hold 2^8 (256) different values
+	Every time an object is defined and in existence, a small portion of that free memory is used
+		Modern computers have a lot of memory, so the impact is negligible; however, larger programs (i.e. high-graphic video game) may have a significant difference between using 1 byte and 8 byte objects
+	Key insight: new programmers often work on optimizing their code when it is negligible; focus on writing maintainable code, and optimize when only necessary
+
+Fundamental Data Type Sizes
+	boolean, character: 1 byte; integer: 2-8 bytes; floating point 4-8 bytes
+	Best practice: for maximum compatibility, don't assume that variables are larger than the specified minimum size
+
+The sizeof Operator
+	The sizeof oeprator is a unary operator that takes either a type or a variable, and returns its size in bytes
+        Code
+	        #include <iostream>
+            int main()
+            {
+                std::cout << "bool:\t\t" << sizeof(bool) << " bytes\n";
+                std::cout << "char:\t\t" << sizeof(char) << " bytes\n";
+                std::cout << "wchar_t:\t" << sizeof(wchar_t) << " bytes\n";
+                std::cout << "char16_t:\t" << sizeof(char16_t) << " bytes\n";
+                std::cout << "char32_t:\t" << sizeof(char32_t) << " bytes\n";
+                std::cout << "short:\t\t" << sizeof(short) << " bytes\n";
+                std::cout << "int:\t\t" << sizeof(int) << " bytes\n";
+                std::cout << "long:\t\t" << sizeof(long) << " bytes\n";
+                std::cout << "long long:\t" << sizeof(long long) << " bytes\n";
+                std::cout << "float:\t\t" << sizeof(float) << " bytes\n";
+                std::cout << "double:\t\t" << sizeof(double) << " bytes\n";
+                std::cout << "long double:\t" << sizeof(long double) << " bytes\n";
+                return 0;
+            }
+        Output
+            bool:           1 bytes
+            char:           1 bytes
+            wchar_t:        2 bytes
+            char16_t:       2 bytes
+            char32_t:       4 bytes
+            short:          2 bytes
+            int:            4 bytes
+            long:           4 bytes
+            long long:      8 bytes
+            float:          4 bytes
+            double:         8 bytes
+            long double:    8 bytes
+        The '\t' symbol is a special symbol that inserts a tab
+    The sizeof operator can also be used on a variable name
+        #include <iostream> 
+        int main()
+        {
+            int x{};
+            std::cout << "x is " << sizeof(x) << " bytes\n";
+            return 0;
+        }
+        // output: x is 4 bytes
+
+Fundamental Data Type Performance
+    Objects of the fundamental data types are fast, so performance should not be much of a concern
+    As an aside: types with less memory are not always faster than types that use more memory; CPUs are often optimized to process data of a certain size (i.e. 64 bits), and types that match that size may be processed quicker
+        On a particular machine, a 32-bit int could be faster than a 16-bit short or an 8-bit char

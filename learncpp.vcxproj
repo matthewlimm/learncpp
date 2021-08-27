@@ -163,6 +163,7 @@
     <ClCompile Include="4.2.cpp" />
     <ClCompile Include="4.4.cpp" />
     <ClCompile Include="4.5.cpp" />
+    <ClCompile Include="4.6.cpp" />
     <ClCompile Include="io.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="2.1.cpp" />

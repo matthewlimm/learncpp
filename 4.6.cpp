@@ -64,4 +64,22 @@ int main()
 * least 32: 32 bits
 */
 
+// std::int_fast16_t is 32 bits because on the author's machine, 32-bit integers are faster to process than 16-bit integers
+// These fast and least integers have their own downsides: 1. lack of familiarity can lead to errors; 2. fast/least integers can vary, so programs may exhibit different behaviors on architectures where they resolve to different sizes
+
+#include <cstdint> // for fixed-width integers
+#include <iostream>
+
+int main()
+{
+	std::uint_fast16_t sometype{ 0 };
+	--sometime; //intentionally overflow to invoke wraparound behavior
+
+	std::cout << sometype;
+
+	return 0;
+}
+
+// This code will produce different results depending on whether std::uint_fast16_t is 16, 32, or 64 bits
+
 #endif

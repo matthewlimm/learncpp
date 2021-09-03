@@ -32,6 +32,36 @@ int main()
 	return 0;
 }
 
-// Fixed-width integers have two downsides: 1. they are optional and only exist if there are fundamental types matching their widths and following a certain binary representation
+// Fixed-width integers have two downsides: 1. they are optional and only exist if there are fundamental types matching their widths and following a certain binary representation; 2. a fixed-width integer may be slower than a wider type on some architectures
+// Warning: the above fixed-width integers should be avoided, as they may not be defined on all target architectures
+
+// FAST AND LEAST INTEGERS
+
+// The fast type (std::int_fast#_t) provides the fastest signed integer type with a width of at least # bits (where # = 8, 16, 32, or 64); i.e. std::int_least32_t will give the smallest signed integer type that's at least 32 bits
+
+#include <cstdint>
+#include <iostream>
+
+int main()
+{
+	std::cout << "fast 8: " << sizeof(std::int_fast8_t) * 8 << " bits\n";
+	std::cout << "fast 16: " << sizeof(std::int_fast16_t) * 8 << " bits\n";
+	std::cout << "fast 32: " << sizeof(std::int_fast32_t) * 8 << " bits\n";
+
+	std::cout << "least 8: " << sizeof(std::int_least8_t) * 8 << " bits\n";
+	std::cout << "least 16: " << sizeof(std::int_least16_t) * 8 << " bits\n";
+	std::cout << "least 32: " << sizeof(std::int_least32_t) * 8 << " bits\n";
+
+	return 0;
+}
+
+/*
+* fast 8: 8 bits
+* fast 16: 32 bits
+* fast 32: 32 bits
+* least 8: 8 bits
+* least 16: 16 bits
+* least 32: 32 bits
+*/
 
 #endif

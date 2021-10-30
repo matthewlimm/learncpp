@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Dev\learncpp\x64\Debug\learncpp.exe</FullPath>
+      <FullPath>C:\Dev\visualStudio\learncpp\x64\Debug\learncpp.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

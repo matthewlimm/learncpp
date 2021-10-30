@@ -114,6 +114,12 @@
     <ClCompile Include="4.6.cpp">
       <Filter>Source Files\section 4</Filter>
     </ClCompile>
+    <ClCompile Include="4.7.cpp">
+      <Filter>Source Files\section 4</Filter>
+    </ClCompile>
+    <ClCompile Include="4.8.cpp">
+      <Filter>Source Files\section 4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="1.x.txt">

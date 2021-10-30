@@ -1,3 +1,18 @@
+#include <cstddef> // std::size_t
+#include <iostream>
+
+int main()
+{
+    std::cout << sizeof(std::size_t) << '\n';
+
+    return 0;
+}
+
+
+
+
+
+#if 0
 #include <iostream>
 
 int main()
@@ -13,3 +28,4 @@ int main()
 
     return 0;
 }
+#endif

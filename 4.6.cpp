@@ -67,6 +67,10 @@ int main()
 // std::int_fast16_t is 32 bits because on the author's machine, 32-bit integers are faster to process than 16-bit integers
 // These fast and least integers have their own downsides: 1. lack of familiarity can lead to errors; 2. fast/least integers can vary, so programs may exhibit different behaviors on architectures where they resolve to different sizes
 
+// WARNING: STD::INT8_T AND STD::UINT8_T MAY BEHAVE LIKE CHARS INSTEAD OF INTEGERS
+
+// Due to oversight in C++ specification, most compilers define and treat std::int_8 and std::uint_8 (fast/least fixed-width types) to types signed char and unsigned char
+
 #include <cstdint> // for fixed-width integers
 #include <iostream>
 
@@ -81,5 +85,71 @@ int main()
 }
 
 // This code will produce different results depending on whether std::uint_fast16_t is 16, 32, or 64 bits
+
+#if 0
+
+#include <cstdint>
+#include <iostream>
+
+int main()
+{
+	std::int8_t myint{ 65 };
+	std::cout << myint;
+
+	return 0;
+}
+
+#endif
+
+// The output may print 'A' (treating myint as a char) on most systems, some 65
+
+// Avoid 8-bit fixed-width integer types, as they are often treated like chars
+
+// INTEGRAL BEST PRACTICES
+
+// There is little consensus on integral best practices, however, it's better to be correct than fast. Therefore, it is recommended to avoid fast/least types in favor of the fixed-width types
+
+/*
+* Best practice
+*	Prefer int when integer size doesn't matter (e.g. # within the range of a 2-byte signed integer); int will cover the vast majority of the cases you're likely to cross
+*	Prefer std::int#_t when storing a quantity that needs a guaranteed range
+*	Prefer std::uint#_t when doing bit manipulation or when well-defined wrap-around behavior is required
+* 
+* Avoid the following when possible:
+*	Unsigned types for holding quantities
+*	The 8-bit fixed-width integer types
+*	The fast and least fixed-width types
+*	Any compiler-specific fixed-width integers (e.g., Visual Studio defines __int8, __int16, etc...)
+*/
+
+// WHAT IS STD::SIZE_T?
+
+#if 0
+
+#include <cstddef> // std::size_t
+#include <iostream>
+
+int main()
+{
+	std::cout << sizeof(int) << '\n';
+	// ...
+	std::cout << sizeof(std::size_t) << '\n';
+
+	return 0;
+}
+
+#endif
+
+// sizeof (and other functions that return a size of length value) return a value of type std::size_t; this is defined as an unsigned integral type, and it is typically used to represent the size of length of objects
+
+// std::size_t varies in size, but it is guaranteed to be unsigned and at least 16 bits, but on most systems will be equivalent to the address-width of the application
+
+// For 32-bit applications, std::size_t will typically be a 32-bit unsigned integer, and for a 64-bit application, a 64-bit unsigned integer
+
+// size_t is defined to be big enough to hold the size of the largest object creatable on your system (in bytes); for example, if std::size_t is 4 bytes wide, the largest object creatable on your system can't be larger than 4,294,967,295 bytes, because this is the largest number a 4 byte unsigned integer can store
+
+// This is the uppermost limit of an object's size, the real size limit can be lower depending on the compiler you're using
+
+// By definition, any object larger than the largest value size_t can hold is considered (and will cause a compiler error), as the sizeof operator would not be able to return the size without wrapping around
 
 #endif

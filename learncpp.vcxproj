@@ -161,6 +161,8 @@
     <ClCompile Include="2.9.cpp" />
     <ClCompile Include="2.x.cpp" />
     <ClCompile Include="4.10.cpp" />
+    <ClCompile Include="4.11.cpp" />
+    <ClCompile Include="4.12.cpp" />
     <ClCompile Include="4.2.cpp" />
     <ClCompile Include="4.4.cpp" />
     <ClCompile Include="4.5.cpp" />

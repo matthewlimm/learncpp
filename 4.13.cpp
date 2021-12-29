@@ -254,4 +254,9 @@ std::getline(std::cin >> std::ws, name);
 std::cout << "Enter your age: ";
 int age{};
 std::getline(std::cin >> std::ws, age);
+
+int nameLength{ static_cast<int>(name.length()) };
+int sum{ nameLength + age };
+
+std::cout << "Your age + length of name is: " << sum;
 #endif

@@ -28,5 +28,65 @@
 // Integer and floating point division
 
 /*
+ * If either (or both) of the operands are floating point values, the division operator performs floating point
+ * division. Floating point division returns a floating point value, and the fraction is kept. Rounding errors may
+ * occur.
  *
+ * If both of the operands are integers, the division operator performs integer division instead. Integer division drops
+ * any fractions and returns an integer value.
+ */
+
+// Using static_cast to do floating point division with integers
+
+/*
+ * We can use static_cast<> to convert an integer to a floating point number so that we can do floating point division
+ * instead of integer division. Consider the following code:
+ */
+
+#if 0
+#include <iostream>
+
+int main()
+{
+    int x{ 7 };
+    int y{ 4 };
+
+    std::cout << "int / int = " << x / y << '\n';
+    std::cout << "double / int = " << static_cast<double>(x) / y << '\n';
+    std::cout << "int / double = " << x / static_cast<double>(y) << '\n';
+    std::cout << "double / double = " << static_cast<double>(x) / static_cast<double>(y) << '\n';
+
+    return 0;
+}
+#endif
+
+// Dividing by zero
+
+/*
+ * Trying to divide by 0 (or 0.0) will generally cause your program to crash, as the results are mathematically
+ * undefined! The following program will either crash or terminate abnormally when the input entered is 0.
+ */
+
+#if 0
+#include <iostream>
+
+int main()
+{
+	std::cout << "Enter a divisor: ";
+	int x{};
+	std::cin >> x;
+
+	std::cout << "12 / " << x << " = " << 12 / x << '\n';
+
+	return 0;
+}
+#endif
+
+// Arithmetic assignment operators
+
+/*
+ * Adding as well as the other operations usually take two operators to execute (operator+, and operator=).
+ *
+ * C++ provides five arithmetic assignment operators for convenience, however. For example, instead of x = x + 4, you
+ * can write x += 4. Instead of x = x * y, you can write x *= y.
  */

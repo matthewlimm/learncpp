@@ -156,7 +156,7 @@ int main()
  *
  * Other cases where the C++ standard does not specify the order in which things are evaluated include operator
  * operands, so different compilers may exhibit different behaviors.These problems can generally all be avoided by
- * ensuring that any variable that has a side-effect applied is used no more than once in a given statement.
+ * ensuring that any variable that has a side effect applied is used no more than once in a given statement.
  *
  * Warning: C++ does not define the order of evaluation for function arguments or operator operands.
  *

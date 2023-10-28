@@ -1,0 +1,3 @@
+/Users/matthewlim/Dev/COMSC-200/vector-of-structs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/matthewlim/Dev/COMSC-200/vector-of-structs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/matthewlim/Dev/COMSC-200/vector-of-structs/cmake-build-debug/CMakeFiles/vector_of_structs.dir

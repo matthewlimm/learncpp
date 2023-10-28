@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2062a773-9832-49a0-85f3-602dffea0632" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../1.1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.11.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.8.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.9.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.x.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.x.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.11.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.8.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.9.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.x.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.x.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.x.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.11.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.12.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.13.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.14.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.15.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.8.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.9.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.x.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.3..cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.x.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6.1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6.2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6.3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learncpp.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learncpp.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learncpp.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.10.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.11.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.3.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.4.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.5.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.6.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.7.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.8.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.9.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/1.x.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.10.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.11.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.3.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.4.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.6.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.7.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.8.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.9.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/2.x.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/4.11.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/4.2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/4.4.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/4.5.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/4.6.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/4.7.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/4.8.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/io.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.tlog/learncpp.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/learncpp.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/test.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/vc142.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Debug/vc142.pdb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectId" id="28rQTaPNwZLL5ys2jzoVLwOUmiy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2062a773-9832-49a0-85f3-602dffea0632" name="Changes" comment="" />
+      <created>1651972233709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651972233709</updated>
+      <workItem from="1651972235060" duration="5407000" />
+      <workItem from="1652230993926" duration="50000" />
+      <workItem from="1654531875471" duration="8413000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+# ninja log v5
+0	274	1646337130529124755	CMakeFiles/FunctionsMinMax.dir/main.cpp.o	6af8f444094920eb
+274	306	1646337130562125460	FunctionsMinMax	ce46bf9f6f80a1ed
+1	213	1646337168466759762	CMakeFiles/FunctionsMinMax.dir/main.cpp.o	6af8f444094920eb
+213	241	1646337168496313654	FunctionsMinMax	ce46bf9f6f80a1ed
+0	200	1646337207178410829	CMakeFiles/FunctionsMinMax.dir/main.cpp.o	6af8f444094920eb
+200	229	1646337207208276598	FunctionsMinMax	ce46bf9f6f80a1ed
+0	204	1646337873404159651	CMakeFiles/FunctionsMinMax.dir/main.cpp.o	6af8f444094920eb
+204	236	1646337873437230481	FunctionsMinMax	ce46bf9f6f80a1ed
+0	218	1646337992321953751	CMakeFiles/FunctionsMinMax.dir/main.cpp.o	6af8f444094920eb
+218	251	1646337992356673883	FunctionsMinMax	ce46bf9f6f80a1ed
+1	225	1646338066053197867	CMakeFiles/FunctionsMinMax.dir/main.cpp.o	6af8f444094920eb
+225	255	1646338066084980940	FunctionsMinMax	ce46bf9f6f80a1ed
+1	218	1646338357518496466	CMakeFiles/FunctionsMinMax.dir/main.cpp.o	6af8f444094920eb
+218	249	1646338357550326830	FunctionsMinMax	ce46bf9f6f80a1ed

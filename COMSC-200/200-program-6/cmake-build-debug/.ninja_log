@@ -1,0 +1,5 @@
+# ninja log v5
+0	44	1656796298821843059	build.ninja	6323d49f7e3fd190
+1	210	1656808378971270739	CMakeFiles/200_program_6.dir/Goat.cpp.o	d396ee8ea51c9dfe
+1	314	1656808566202727250	CMakeFiles/200_program_6.dir/main.cpp.o	bc2e7f33b48f8eee
+314	344	1656808566234012589	200_program_6	aa4cbe78a5f533fe

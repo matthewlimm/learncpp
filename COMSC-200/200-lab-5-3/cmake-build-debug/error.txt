@@ -1,0 +1,1 @@
+ERROR: camp_chair's sitter array is full; Jodi is not added.
